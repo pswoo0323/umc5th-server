@@ -21,7 +21,7 @@ public class ResponseDto<T> {
 
 
 
-    public static <T> ResponseDto<T> onSuccess(T data) {
+    public static <T> ResponseDto<T> onSuccess(T data, Code code) {
         return new ResponseDto<>(true, "요청에 성공하였습니다.","1000", data);
     }
 
