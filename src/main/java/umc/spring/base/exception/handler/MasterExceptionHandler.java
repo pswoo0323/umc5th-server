@@ -1,4 +1,4 @@
-package umc.spring.base.exception;
+package umc.spring.base.exception.handler;
 
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
@@ -16,6 +16,7 @@ import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 import umc.spring.base.Code;
 import umc.spring.base.ResponseDto;
+import umc.spring.base.exception.GeneralException;
 
 import java.util.logging.Logger;
 
